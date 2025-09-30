@@ -1,49 +1,82 @@
 # 🎨 Extensão de Funcionalidades para Gartic
 
-Este projeto é uma aplicação em **JavaScript** (IIFE) que pode ser executada diretamente no navegador durante uma partida de [Gartic](https://gartic.io).  
-O objetivo é adicionar **funcionalidades extras** para melhorar a experiência do jogo, trazendo desde automações até estatísticas em tempo real.
+Aplicação em **JavaScript** (IIFE) que adiciona uma janela interativa ao [Gartic](https://gartic.io), trazendo diversas ferramentas extras como **AntiIdle, tentativa automática de acerto, histórico avançado de chat, sugestões de palavras e estatísticas de jogo**.
 
 ---
 
-## ✨ Funcionalidades
+## 📊 Painel Principal
 
-- ⏱ **AntiIdle**: evita desconexão por inatividade.  
-- 🎯 **AutoGuess**: tenta acertar o desenho automaticamente quando há dicas disponíveis.  
-- 💬 **Chat avançado**:
-  - Busca por mensagens antigas.
-  - Botão para limpar o chat.
-  - Botão para ocultar/exibir o chat.  
-- 🔎 **Sugestões de palavras**: ao digitar alguns caracteres no input, aparecem palavras que contêm esses caracteres  
-  > Exemplo: digitando `sa` → aparecem **mesa**, **sapato**, etc.  
-- 📊 **Painel de estatísticas**:
-  - Tempo total jogado.
-  - Número de partidas.
-  - Número de acertos e mais.  
+O painel fixo na tela exibe informações em tempo real sobre sua sessão no Gartic:
+
+| Campo | Descrição |
+|-------|-----------|
+| **Status** | Mostra se o jogador está online (verde) |
+| **Tempo de sessão** | Contagem de tempo jogado (`HH:MM:SS`) |
+| **Partidas** | Número de partidas jogadas |
+| **Acertos** | Número de acertos até o momento |
+| **AntiIdle** | Estado atual do AntiIdle (ativado/desativado) |
+| **Pular vez** | Opção para pular sua vez **automaticamente** (Sim/Não) |
+| **Auto Responder** | Envia respostas **automaticamente** quando ativado (Sim/Não) |
+| **Esperando partida** | Indica se está aguardando nova rodada |
+
+---
+
+## 🖲️ Botões de Funcionalidades
+
+### AntiIdle
+- **Ativar AntiIdle** → impede desconexão por inatividade.  
+- **Desativar AntiIdle** → volta ao comportamento normal.
+
+### Tentativa de acerto
+- **Tentar Acerto** → inicia a tentativa automática de acerto quando há dica.  
+- **Parar Acerto** → interrompe a tentativa automática.
+
+### Chat
+- **Ocultar Chat** → esconde a janela do chat.  
+- **Mostrar Chat** → exibe novamente o chat.  
+- **Limpar Chat** → apaga as mensagens visíveis do chat.  
+- **Limpar Chat (duplo clique)** → remove permanentemente as mensagens armazenadas.
+
+---
+
+## 🔎 Input de Sugestão
+
+Um campo de busca que oferece **sugestões de palavras** conforme você digita.  
+Exemplo: ao digitar `sa` → aparecem palavras como **mesa**, **sapato**, etc.  
+
+- Pressionar **Tab** → seleciona a sugestão atual.  
+- Pressionar **Enter** → envia a sugestão.  
+- Pressionar **Backspace** → remove o último caractere.  
+- **Clique em uma sugestão** → seleciona e insere no campo.  
+
+---
+
+## 💬 Histórico do Chat
+
+O painel de mensagens traz recursos avançados:
+
+| Função | Descrição |
+|--------|-----------|
+| 🔍 **Busca** | Pesquisar mensagens antigas |
+| 📑 **Mensagens do sistema** | Mostrar/ocultar mensagens de sistema |
+| 🔠 **Fonte** | Aumentar/diminuir o tamanho da fonte das mensagens |
+| 🎨 **Cores** | Mensagens do jogador, do sistema e de outros usuários são destacadas com cores diferentes |
+| 🕒 **Timestamp** | Cada mensagem exibe o horário (`HH:MM:SS`) |
+
+---
+
+## 👤 Créditos
+
+> Desenvolvido por [**José Rafael**](https://github.com/jrafael29)  
 
 ---
 
 ## 📷 Screenshots
 
-> _(Adicione aqui as imagens do funcionamento da aplicação)_  
+```markdown
+![Gartic Bot](assets/imagem1.png)
+![Gartic Bot](assets/imagem2.png)
 
----
-
-## 🚀 Como usar
-
-1. Abra o [Gartic](https://gartic.io) em seu navegador.  
-2. Abra o **console do desenvolvedor** (geralmente `F12` → aba *Console*).  
-3. Cole o código da aplicação e pressione **Enter**.  
-4. A janela de funcionalidades será exibida automaticamente.  
-
----
-
-## ⚠️ Aviso
-
-Este projeto é apenas para **fins educacionais e de aprendizado**.  
-O uso em partidas públicas pode ir contra os termos de uso do jogo.  
-Use com responsabilidade.  
-
----
 
 ## 📜 Licença
 

@@ -1367,22 +1367,24 @@
   let storedKey = "gartic_chat_log";
   let chatLog = JSON.parse(localStorage.getItem(storedKey)) || [];
 
-  // Carregar Vue UMD dinamicamente
+  // Carregar Vue e Lucife UMD dinamicamente
   function loadVue(callback) {
-    if (window.Vue) {
+    if (window.Vue && window.lucide) {
       callback();
       return;
     }
-    // carrega o vue
+    // Carregar Vue
     const scriptVue = document.createElement("script");
     scriptVue.src = "https://unpkg.com/vue@3/dist/vue.global.prod.js";
-    scriptVue.onload = callback;
-    document.head.appendChild(scriptVue);
+    scriptVue.onload = () => {
+      // Carregar Lucide somente após Vue
+      const scriptLucide = document.createElement("script");
+      scriptLucide.src = "https://unpkg.com/lucide@latest";
+      scriptLucide.onload = callback;
+      document.head.appendChild(scriptLucide);
+    };
 
-    const scriptLucid = document.createElement("script");
-    scriptLucid.src = "https://unpkg.com/lucide@latest";
-    scriptLucid.onload = callback;
-    document.head.appendChild(scriptLucid);
+    document.head.appendChild(scriptVue);
   }
 
   loadVue(() => {
@@ -2298,7 +2300,7 @@
           </div>
 
           <div style="text-align: center">
-            <small> Por: <a target="_blank" href="github.com/jrafael29"> <i>Jose</i> </a> </small>
+            <small> Por: <a target="_blank" href="github.com/jrafael29"> <i>José Rafael</i> </a> </small>
           </div>
 
           <div style="position:absolute; right:0; bottom:0; width:10px; height:10px; cursor:nwse-resize;"
