@@ -1,11 +1,16 @@
 (function () {
-  window.respostasAcerto_objetos = [
-    "guitarra", "luva", "cama elástica", "cartão de memória", "boá", "abajur", "laço", "bandolim", "cadarço", "chapéu", "carimbo", "saco de plástico", "abafador", "pregador", "lanterna", "escorredor de macarrão", "computador", "grinalda", "borrifador", "gaveta", "sunga", "fantoche", "escova", "tênis", "esponja", "talco", "desentupidor", "aro", "impressora", "notebook", "torneira", "crachá", "volante", "espeto", "palheta", "monóculo", "penteadeira", "esparadrapo", "cama", "munhequeira", "lixeira", "ferradura", "arco", "vassoura", "papel", "paraquedas", "arame farpado", "alargador", "barril", "jarra", "maiô", "xícara", "lapiseira", "prateleira", "pia", "tobogã", "poltrona", "anzol", "pilha", "toalha de mesa", "ventilador", "ratoeira", "envelope", "cartão postal", "salto alto", "espanador", "porta-lápis", "ferro de passar roupa", "pêndulo", "tampa", "clipe", "camisa", "rasteirinha", "gaita", "lixa de unha", "urna", "controle remoto", "caixa registradora", "fita cassete", "macacão", "espelho", "telha", "sandália", "lápis de cor", "triângulo", "dinamite", "taco", "prancha", "lâmina", "toalha", "calça", "gravata", "estilingue", "para-raios", "jardineira", "rolha", "vasilha", "tamborim", "caixote", "caldeirão", "sapateira", "retrovisor", "gibi", "farda", "bicho de pelúcia", "jeans", "convite", "barbeador", "estilete", "flauta", "mouse pad", "leque", "casaco", "desodorante", "bazuca", "gancho", "regador", "brinco", "chip", "serra", "martelo", "micro-ondas", "microfone", "fuzil", "borracha", "esquadro", "cristal", "jaqueta", "chupeta", "cutelo", "dado", "saia", "farolete", "perfurador de papel", "boia", "bicama", "alfinete", "arpão", "tapete", "torradeira", "buzina", "rádio", "espremedor de alho", "saladeira", "panela", "baú", "pistola", "baqueta", "coroa", "máscara cirúrgica", "telefone", "batom", "amortecedor", "bomba", "holofote", "violão", "colete", "gargantilha", "bermuda", "nariz de palhaço", "colchão", "batente", "panela de barro", "balão", "monitor", "biquíni", "miçanga", "picareta", "tambor", "pneu", "concha", "pente", "churrasqueira", "lança", "papel higiênico", "mapa", "mesa de ping-pong", "semáforo", "revólver", "palito de fósforo", "bandana", "bola", "capa", "cadeira de rodas", "fita", "boneca", "papel laminado", "banheira", "capacete", "detector de metais", "saxofone", "interfone", "caixa de som", "muleta", "buquê", "marcador de página", "régua", "carrinho de mão", "chuveiro", "bandeira", "zíper", "quebra-nozes", "faca", "espiral", "pote", "porta-retrato", "rede", "cabide", "tábua", "cuia", "estatueta do oscar", "chocalho", "cinto de segurança", "mamadeira", "meia-calça", "berço", "coleira", "cavalo de pau", "revista", "rede de descanso", "pato de borracha", "celular", "maçaneta", "anel", "fita crepe", "cata-vento", "batedeira", "fronha", "cesta", "vela", "grelha", "cone", "balaio", "gesso", "guarda-roupa", "mochila", "foguete", "forma", "retrato", "seringa", "cantoneira", "pilão", "machado", "colar", "tamanco", "lousa", "escumadeira", "fio", "cachecol", "abridor de garrafa", "lata", "presente", "minissaia", "skate", "canudo", "sino", "caneta hidrocor", "cadeado", "mesa", "rastelo", "zarabatana", "cofre", "cavaquinho", "alto falante", "pérola", "cartão", "furadeira", "ombreira", "apontador de lápis", "óculos de sol", "bastão", "pandeiro", "terno", "canivete", "maca", "mordaça", "óculos", "marcador de texto", "elástico", "giz de cera", "vídeo game", "pingente", "caneca", "camisa regata", "extintor de incêndio", "quebra-cabeça", "charuto", "guardanapo", "ralador", "sapatilha", "webcam", "pulseira", "gorro", "escavadeira", "violoncelo", "fogão a lenha", "boina", "chuteira", "tornozeleira", "fichário", "rabeca", "tubo de ensaio", "banco", "despertador", "cano", "pente", "guitarra", "esfigmomanômetro", "grinalda", "bola de golfe", "bateria", "trombone", "pino", "lata", "caixa de ferramentas", "binóculo", "lousa", "alicate", "manequim", "bola de boliche", "canudo", "urna", "pandeiro", "tênis", "dvd", "rolha", "cutelo", "agulha de crochê", "lixa de unha", "diamante", "regador", "guidão", "televisão", "tamanco", "harpa", "baqueta", "convite", "grelha", "prancha", "cartão postal", "pilha", "espátula", "gaveta", "clipe", "ventilador", "avental", "bule", "pistola", "balança", "abafador", "algodão", "raquete elétrica", "xícara", "anel", "vassoura", "dado", "controle remoto", "tampa", "caixa de correio", "pijama", "colher", "coleira", "maca", "cone", "fio", "lupa", "garrafa", "boia", "bíblia", "antena", "alicate de unha", "aspirador de pó", "bilhete", "espada", "vídeo game", "algema", "scanner", "bumerangue", "pote", "faixa", "cd", "aliança", "chapéu de aniversário", "rímel", "sutiã", "armário", "vidro", "paraquedas", "vaso sanitário", "janela", "dobradiça", "farinheiro", "lenço", "suspensório", "dinamite", "forno", "salto alto", "revólver", "amortecedor", "lâmpada", "cofre", "cobertor", "micro-ondas", "pingente", "bicho de pelúcia", "telha", "cadeira de rodas", "boina", "chapéu", "charuto", "jeans", "rádio", "semáforo", "cabo", "alfinete", "talher", "tambor", "volante", "desentupidor", "lanterna", "colchão", "retrato", "cavalo de pau", "guarda-roupa", "buquê", "cachecol", "armadura", "dardo", "seringa", "cuia", "apagador", "balão", "luva", "escorredor de macarrão", "colete", "cafeteira", "chaveiro", "caixa", "ratoeira", "clarinete", "pódio", "fivela", "cadeira", "tábua", "fita adesiva", "livro", "canga", "chinelo", "pé de cabra", "pregador", "short", "catraca", "espelho", "marreta", "para-raios", "relógio", "chave", "gibi", "míssil", "cortador de unha", "leiteira", "muleta", "balde", "asa delta", "mochila", "maquete", "escada", "flanela", "ralador", "tamborim", "violoncelo", "tobogã", "andaime", "saca-rolhas", "pérola", "estante", "lista telefônica", "cartucho de tinta", "dedal", "ponteiro", "berimbau", "porta cd", "brilho labial", "caneca", "armadilha", "pá", "cama elástica", "panela", "lente de contato", "fio dental", "álbum", "mouse", "zíper", "pergaminho", "giz de cera", "coroa", "chave de fenda", "trave", "rasteirinha", "escorregador", "fruteira", "gravata", "nariz de palhaço", "palmilha", "maçaneta", "cachimbo", "mamadeira", "telefone", "papel", "cocar", "revista", "rastelo", "esfregão", "crucifixo", "pião", "marcador de texto", "trompete", "impressora", "calota", "pia", "estilingue", "fuzil", "focinheira", "notebook", "pacote", "rede", "mala", "sunga", "capa", "ralo", "cesta", "colher de pau", "teclado", "bisturi", "quimono", "tablet", "sombrinha", "prendedor de cabelo", "maiô", "tapete", "quebra-nozes", "bomba", "caixa de fósforo", "penteadeira", "rede de descanso", "papel higiênico", "ímã", "escova", "monitor", "caçarola", "cristal", "bermuda", "meia", "colchonete", "rack", "toalha", "tela", "chocalho", "queijeira", "bazuca", "tubo de ensaio", "poster", "balaio", "brinco", "catapulta", "elástico", "torpedo", "borracha", "rodo", "disquete", "serra", "joelheira", "secadora", "berço", "hélice", "concha", "detector de metais", "bandeira", "torradeira", "claquete", "baú", "fogão", "taco", "suéter", "estabilizador", "jangada", "aro", "sandália", "pires", "bengala", "machado", "secador de cabelo", "forma", "marionete", "estilete", "calça", "prego", "mesa de ping-pong", "rabeca", "chave de boca", "aljava", "gesso", "chapinha de cabelo", "cadeado", "caixa registradora", "aquário", "fita cassete", "bússola", "vaso", "travesseiro", "carteira", "jaqueta", "corpete", "palito de fósforo", "filtro de linha", "pá de lixo", "munhequeira", "geladeira", "foguete", "varal", "âncora", "churrasqueira", "alargador", "tanque", "cavaquinho", "serrote", "spray", "abajur", "terno", "caixão", "ralo de pia", "bola de gude", "sapato", "assadeira", "órgão", "guarda-chuva", "pulseira", "escova de dente", "boneca", "tornozeleira", "boné", "persiana", "extintor de incêndio", "patinete", "despertador", "guilhotina", "faqueiro", "cola", "chip", "cata-vento", "confete", "frigobar", "garrafa térmica", "abridor de latas", "projétil", "diário", "cômoda", "caderno", "canivete", "martelo", "colírio", "cinto", "escapamento", "flecha", "escumadeira", "laço", "filtro de água", "barril", "pedra-pomes", "prateleira", "guardanapo", "delineador", "sapatilha", "oboé", "vitrola", "figurinha", "carimbo", "patins", "cabide", "detector de fumaça", "cartão de crédito", "pano", "sino", "barraca", "lanterna chinesa", "microfone", "bolsa térmica", "aquecedor", "minissaia", "mesa de sinuca", "tijolo", "apito", "sanfona", "torneira", "ferradura", "tumba", "disco", "sapateira", "escudo", "skate", "raquete", "cinto de segurança", "peteca", "troféu", "trono", "caneta", "porta-retrato", "bacia", "pen drive", "monóculo", "agulha", "brinquedo", "cadeira de balanço", "cueca", "interfone", "roteador", "fita crepe", "gancho", "pipa", "navalha", "banco", "rede de pesca", "garrafa pet", "mola", "cristaleira", "lençol", "caixa de papelão", "caixa de isopor", "pedal", "escopeta", "papel laminado", "fusível", "macacão", "tinta de cabelo", "chuveiro", "mouse pad", "mordedor", "espanador", "esponja", "pipoqueira", "bola", "ferro de passar roupa", "lâmina", "bota", "conta-gotas", "espeto", "lustre", "cortador de grama", "camisola", "envelope", "escrivaninha", "chave de roda", "farda", "espartilho", "capacete", "corretivo", "ampulheta", "arpão", "esquadro", "relógio de pulso", "balaústre", "isqueiro", "máscara de mergulho", "bolsa", "alarme", "iate", "furadeira", "estojo", "palheta", "calcinha", "contrabaixo", "retroprojetor", "placa", "computador", "grampo de cabelo", "apontador de lápis", "lantejoula", "violino", "vestido", "porta-lápis", "pilão", "perfurador de papel", "mesa", "cruzeta", "cisterna", "compasso", "giz", "prato", "lápis", "punhal", "pneu", "tigela", "galocha", "medalha", "pisca-pisca", "narguilé", "palito de dente", "lixeira", "parabrisa", "cadeira de praia", "zabumba", "faca", "árvore de natal", "colar", "saboneteira", "bafômetro", "carrinho de feira", "piercing", "soco inglês", "unha postiça", "lã de aço", "haltere", "esfigmomanômetro", "mapa", "máquina de lavar roupa", "transferidor", "filtro de papel", "chicote", "cadeira elétrica", "língua de sogra", "granada", "bomba de ar", "chuteira", "cerca elétrica", "almofada", "frigideira", "azulejo", "fantoche", "cortina", "barbeador", "celular", "calçadeira", "colcha", "carrinho de mão", "gangorra", "leque", "chaleira", "farolete", "forno elétrico", "pé de pato", "podadeira", "lapiseira", "cadarço", "novelo de lã", "arame farpado", "retrovisor", "saco de plástico", "caldeirão", "presilha", "biquíni", "caxixi", "antena parabólica", "mosquiteiro", "autorama", "óculos de sol", "estátua", "estatueta do oscar", "caixa de som", "hidrante", "filmadora", "guirlanda", "fichário", "puxador", "bambolê", "camisa de força", "botijão de gás", "colete cervical", "toalha de mesa", "lápis de olho", "biruta", "banheira", "ombreira", "bigorna", "camiseta", "lampião", "fones de ouvido", "lápis labial", "guindaste", "turbina", "copo", "saxofone", "tesoura", "estojo de maquiagem", "agulheiro", "luminária", "tridente", "violão", "viola", "gaita", "radar", "rimel", "esparadrapo", "cita-liga", "fritadeira elétrica", "crachá", "meia-calça", "dominó", "fantasia", "lamparina", "bandeja", "coador", "multiprocessador", "corrente", "espremedor de frutas", "fax", "jornal", "triângulo", "uniforme", "véu", "arco", "base", "bata", "beca", "bidê", "bóia", "cama", "cera", "clip", "cruz", "divã", "elmo", "fita", "grua", "ioiô", "leme", "lira", "lona", "oboe", "odre", "puff", "remo", "roda", "saia", "sofá", "taça", "tear", "vela", "xale", "ápaco", "adaga", "alzão", "anzol", "baixo", "balsa", "banjo", "batom", "blusa", "blush", "botão", "broca", "bucha", "burca", "canoa", "carta", "cetro", "clava", "coifa", "conga", "corda", "cuíca", "draga", "facão", "foice", "funil", "ganzá", "garfo", "gorro", "jarra", "kunai", "laquê", "lente", "manta", "modem", "moeda", "motor", "mural", "ofurô", "orgão", "parca", "pasta", "piano", "pinça", "pluma", "porta", "quepe", "rédea", "régua", "rifle", "sabre", "talco", "tanga", "tiara", "toldo", "touca", "webcam", "agenda", "alaúde", "anilha", "bastão", "batina", "batuta", "bornal", "botina", "broche", "buzina", "cajado", "cálice", "camisa", "cantil", "capelo", "cartão", "casaco", "enxada", "estaca", "fagote", "flauta", "formão", "frasco", "fronha", "gaiola", "jaleco", "lajota", "luneta", "maracá", "mastro", "óculos", "paletó", "papete", "peruca", "pincel", "pipeta", "planta", "pomada", "quadro", "rodapé", "sirene", "sombra", "tatame", "tecido", "trompa", "túnica", "acetona", "bobina", "andador", "balanço", "bandolim", "caixote", "estetoscópio", "fita isolante", "guarda-sol", "metrô", "chupeta", "máquina fotográfica", "máquina de lavar", "termômetro", "telescópio",
+  window.respostasAcerto_objetos = [ 
+    "guitarra", "luva", "cama elástica", "cartão de memória", "boá", "abajur", "laço", "bandolim", "cadarço", "chapéu", "carimbo", "saco de plástico", "abafador", "pregador", "lanterna", "escorredor de macarrão", "computador", "grinalda", "borrifador", "gaveta", "sunga", "fantoche", "escova", "tênis", "esponja", "talco", "desentupidor", "aro", "impressora", "notebook", "torneira", "crachá", "volante", "espeto", "palheta", "monóculo", "penteadeira", "esparadrapo", "cama", "munhequeira", "lixeira", "ferradura", "arco", "vassoura", "papel", "paraquedas", "arame farpado", "alargador", "barril", "jarra", "maiô", "xícara", "lapiseira", "prateleira", "pia", "tobogã", "poltrona", "anzol", "pilha", "toalha de mesa", "ventilador", "ratoeira", "envelope", "cartão postal", "salto alto", "espanador", "porta-lápis", "ferro de passar roupa", "pêndulo", "tampa", "clipe", "camisa", "rasteirinha", "gaita", "lixa de unha", "urna", "controle remoto", "caixa registradora", "fita cassete", "macacão", "espelho", "telha", "sandália", "lápis de cor", "triângulo", "dinamite", "taco", "prancha", "lâmina", "toalha", "calça", "gravata", "estilingue", "para-raios", "jardineira", "rolha", "vasilha", "tamborim", "caixote", "caldeirão", "sapateira", "retrovisor", "gibi", "farda", "bicho de pelúcia", "jeans", "convite", "barbeador", "estilete", "flauta", "mouse pad", "leque", "casaco", "desodorante", "bazuca", "gancho", "regador", "brinco", "chip", "serra", "martelo", "micro-ondas", "microfone", "fuzil", "borracha", "esquadro", "cristal", "jaqueta", "chupeta", "cutelo", "dado", "saia", "farolete", "perfurador de papel", "boia", "bicama", "alfinete", "arpão", "tapete", "torradeira", "buzina", "rádio", "espremedor de alho", "saladeira", "panela", "baú", "pistola", "baqueta", "coroa", "máscara cirúrgica", "telefone", "batom", "amortecedor", "bomba", "holofote", "violão", "colete", "gargantilha", "bermuda", "nariz de palhaço", "colchão", "batente", "panela de barro", "balão", "monitor", "biquíni", "miçanga", "picareta", "tambor", "pneu", "concha", "pente", "churrasqueira", "lança", "papel higiênico", "mapa", "mesa de ping-pong", "semáforo", "revólver", "palito de fósforo", "bandana", "bola", "capa", "cadeira de rodas", "fita", "boneca", "papel laminado", "banheira", "capacete", "detector de metais", "saxofone", "interfone", "caixa de som", "muleta", "buquê", "marcador de página", "régua", "carrinho de mão", "chuveiro", "bandeira", "zíper", "quebra-nozes", "faca", "espiral", "pote", "porta-retrato", "rede", "cabide", "tábua", "cuia", "estatueta do oscar", "chocalho", "cinto de segurança", "mamadeira", "meia-calça", "berço", "coleira", "cavalo de pau", "revista", "rede de descanso", "pato de borracha", "celular", "maçaneta", "anel", "fita crepe", "cata-vento", "batedeira", "fronha", "cesta", "vela", "grelha", "cone", "balaio", "gesso", "guarda-roupa", "mochila", "foguete", "forma", "retrato", "seringa", "cantoneira", "pilão", "machado", "colar", "tamanco", "lousa", "escumadeira", "fio", "cachecol", "abridor de garrafa", "lata", "presente", "minissaia", "skate", "canudo", "sino", "caneta hidrocor", "cadeado", "mesa", "rastelo", "zarabatana", "cofre", "cavaquinho", "alto falante", "pérola", "cartão", "furadeira", "ombreira", "apontador de lápis", "óculos de sol", "bastão", "pandeiro", "terno", "canivete", "maca", "mordaça", "óculos", "marcador de texto", "elástico", "giz de cera", "vídeo game", "pingente", "caneca", "camisa regata", "extintor de incêndio", "quebra-cabeça", "charuto", "guardanapo", "ralador", "sapatilha", "webcam", "pulseira", "gorro", "escavadeira", "violoncelo", "fogão a lenha", "boina", "chuteira", "tornozeleira", "fichário", "rabeca", "tubo de ensaio", "banco", "despertador", "cano", "esfigmomanômetro", "bola de golfe", "bateria", "trombone", "pino", "caixa de ferramentas", "binóculo", "alicate", "manequim", "bola de boliche", "dvd", "agulha de crochê", "diamante", "guidão", "televisão", "harpa", "espátula", "avental", "bule", "balança", "algodão", "raquete elétrica", "caixa de correio", "pijama", "colher", "lupa", "garrafa", "bíblia", "antena", "alicate de unha", "aspirador de pó", "bilhete", "espada", "algema", "scanner", "bumerangue", "faixa", "cd", "aliança", "chapéu de aniversário", "rímel", "sutiã", "armário", "vidro", "vaso sanitário", "janela", "dobradiça", "farinheiro", "lenço", "suspensório", "forno", "lâmpada", "cobertor", "cabo", "talher", "armadura", "dardo", "apagador", "cafeteira", "chaveiro", "caixa", "clarinete", "pódio", "fivela", "cadeira", "fita adesiva", "livro", "canga", "chinelo", "pé de cabra", "short", "catraca", "marreta", "relógio", "chave", "míssil", "cortador de unha", "leiteira", "balde", "asa delta", "maquete", "escada", "flanela", "andaime", "saca-rolhas", "estante", "lista telefônica", "cartucho de tinta", "dedal", "ponteiro", "berimbau", "porta cd", "brilho labial", "armadilha", "pá", "lente de contato", "fio dental", "álbum", "mouse", "pergaminho", "chave de fenda", "trave", "escorregador", "fruteira", "palmilha", "cachimbo", "cocar", "esfregão", "crucifixo", "pião", "trompete", "calota", "focinheira", "pacote", "mala", "ralo", "colher de pau", "teclado", "bisturi", "quimono", "tablet", "sombrinha", "prendedor de cabelo", "caixa de fósforo", "ímã", "caçarola", "meia", "colchonete", "rack", "tela", "queijeira", "poster", "catapulta", "torpedo", "rodo", "disquete", "joelheira", "secadora", "hélice", "claquete", "fogão", "suéter", "estabilizador", "jangada", "pires", "bengala", "secador de cabelo", "marionete", "prego", "chave de boca", "aljava", "chapinha de cabelo", "aquário", "bússola", "vaso", "travesseiro", "carteira", "corpete", "filtro de linha", "pá de lixo", "geladeira", "varal", "âncora", "tanque", "serrote", "spray", "caixão", "ralo de pia", "bola de gude", "sapato", "assadeira", "órgão", "guarda-chuva", "escova de dente", "boné", "persiana", "patinete", "guilhotina", "faqueiro", "cola", "confete", "frigobar", "garrafa térmica", "abridor de latas", "projétil", "diário", "cômoda", "caderno", "colírio", "cinto", "escapamento", "flecha", "filtro de água", "pedra-pomes", "delineador", "oboé", "vitrola", "figurinha", "patins", "detector de fumaça", "cartão de crédito", "pano", "barraca", "lanterna chinesa", "bolsa térmica", "aquecedor", "mesa de sinuca", "tijolo", "apito", "sanfona", "tumba", "disco", "escudo", "raquete", "peteca", "troféu", "trono", "caneta", "bacia", "pen drive", "agulha", "brinquedo", "cadeira de balanço", "cueca", "roteador", "pipa", "navalha", "rede de pesca", "garrafa pet", "mola", "cristaleira", "lençol", "caixa de papelão", "caixa de isopor", "pedal", "escopeta", "fusível", "tinta de cabelo", "mordedor", "pipoqueira", "bota", "conta-gotas", "lustre", "cortador de grama", "camisola", "escrivaninha", "chave de roda", "espartilho", "corretivo", "ampulheta", "relógio de pulso", "balaústre", "isqueiro", "máscara de mergulho", "bolsa", "alarme", "iate", "estojo", "calcinha", "contrabaixo", "retroprojetor", "placa", "grampo de cabelo", "lantejoula", "violino", "vestido", "cruzeta", "cisterna", "compasso", "giz", "prato", "lápis", "punhal", "tigela", "galocha", "medalha", "pisca-pisca", "narguilé", "palito de dente", "parabrisa", "cadeira de praia", "zabumba", "árvore de natal", "saboneteira", "bafômetro", "carrinho de feira", "piercing", "soco inglês", "unha postiça", "lã de aço", "haltere", "máquina de lavar roupa", "transferidor", "filtro de papel", "chicote", "cadeira elétrica", "língua de sogra", "granada", "bomba de ar", "cerca elétrica", "almofada", "frigideira", "azulejo", "cortina", "calçadeira", "colcha", "gangorra", "chaleira", "forno elétrico", "pé de pato", "podadeira", "novelo de lã", "presilha", "caxixi", "antena parabólica", "mosquiteiro", "autorama", "estátua", "hidrante", "filmadora", "guirlanda", "puxador", "bambolê", "camisa de força", "botijão de gás", "colete cervical", "lápis de olho", "biruta", "bigorna", "camiseta", "lampião", "fones de ouvido", "lápis labial", "guindaste", "turbina", "copo", "tesoura", "estojo de maquiagem", "agulheiro", "luminária", "tridente", "viola", "radar", "rimel", "cita-liga", "fritadeira elétrica", "dominó", "fantasia", "lamparina", "bandeja", "coador", "multiprocessador", "corrente", "espremedor de frutas", "fax", "jornal", "uniforme", "véu", "base", "bata", "beca", "bidê", "bóia", "cera", "clip", "cruz", "divã", "elmo", "grua", "ioiô", "leme", "lira", "lona", "oboe", "odre", "puff", "remo", "roda", "sofá", "taça", "tear", "xale", "ápaco", "adaga", "alzão", "baixo", "balsa", "banjo", "blusa", "blush", "botão", "broca", "bucha", "burca", "canoa", "carta", "cetro", "clava", "coifa", "conga", "corda", "cuíca", "draga", "facão", "foice", "funil", "ganzá", "garfo", "kunai", "laquê", "lente", "manta", "modem", "moeda", "motor", "mural", "ofurô", "orgão", "parca", "pasta", "piano", "pinça", "pluma", "porta", "quepe", "rédea", "rifle", "sabre", "tanga", "tiara", "toldo", "touca", "agenda", "alaúde", "anilha", "batina", "batuta", "bornal", "botina", "broche", "cajado", "cálice", "cantil", "capelo", "enxada", "estaca", "fagote", "formão", "frasco", "gaiola", "jaleco", "lajota", "luneta", "maracá", "mastro", "paletó", "papete", "peruca", "pincel", "pipeta", "planta", "pomada", "quadro", "rodapé", "sirene", "sombra", "tatame", "tecido", "trompa", "túnica", "acetona", "bobina", "andador", "balanço", "estetoscópio", "fita isolante", "guarda-sol", "metrô", "máquina fotográfica", "máquina de lavar", "termômetro", "telescópio" 
   ];
   window.respostasAcerto_alimentos = [
     "castanha", "leite em pó", "sanduíche", "broto de feijão", "mousse de morango", "arroz tropeiro", "farinha0", "chá", "mel", "ovo", "sal grosso", "pão", "rum", "sal", "uva", "abiu", "açaí", "água", "aipo", "alho", "angu", "bala", "bife", "bolo", "broa", "café", "cajá", "caju", "coco", "figo", "filé", "flan", "fubá", "gema", "ingá", "jaca", "jiló", "kiwi", "lima", "maçã", "mate", "nabo", "óleo", "patê", "pavê", "pera", "purê", "romã", "sagu", "soja", "sopa", "suco", "umbu", "aipim", "amora", "araça", "arroz", "aveia", "avelã", "bacon", "bauru", "cacau", "caqui", "carne", "chopp", "cidra", "clara", "couve", "cravo", "crepe", "curau", "curry", "glacê", "jambo", "jataí", "leite", "licor", "limão", "lombo", "louro", "mamão", "manga", "melão", "menta", "milho", "nozes", "orobô", "pequi", "pinha", "pirão", "pizza", "pudim", "quibe", "ração", "salsa", "saquê", "sonho", "suflê", "sushi", "torta", "trigo", "trufa", "vagem", "vinho", "vodca", "abricó", "acelga", "açúcar", "agrião", "alface", "ameixa", "azeite", "bacuri", "banana", "batata", "batida", "bombom", "canapé", "canela", "caruru", "caviar", "cebola", "cereal", "cereja", "chuchu", "cocada", "cuscuz", "empada", "farofa", "feijão", "fondue", "frango", "funghi", "garapa", "geleia", "goiaba", "guandu", "hóstia", "inhame", "jatobá", "jujuba", "lichia", "manjar", "maxixe", "mingau", "mousse", "muffin", "murici", "nachos", "nhoque", "paçoca", "pastel", "pepino", "pernil", "picles", "picolé", "pinhão", "pipoca", "pitaya", "queijo", "quiabo", "rabada", "ricota", "rúcula", "salada", "salame", "salsão", "sapoti", "sundae", "tâmara", "temaki", "tomate", "uísque", "urucum", "vatapá", "abacate", "abacaxi", "abóbora", "acarajé", "acerola", "alecrim", "alfajor", "amêndoa", "aspargo", "atemóia", "açafrão", "baguete", "beirute", "bisteca", "bolacha", "brioche", "cambucá", "canjica", "cenoura", "cerveza", "churros", "coentro", "colorau", "cookies", "costela", "coxinha", "cupcake", "damasco", "empadão", "endívia", "ervilha", "esfirra", "granola", "granada", "guaraná", "hortelã", "iogurte", "ketchup", "laranja", "lasanha", "mangaba", "marisco", "mirtilo", "moranga", "morango", "músculo", "nuggets", "omelete", "orégano", "palmito", "pamonha", "pão de ló", "picanha", "pimenta", "polenta", "quindim", "ravioli", "repolho", "risoles", "sashimi", "suspiro", "tapioca", "tequila", "torrada", "torrone", "vinagre", "waffles", "adoçante", "amendoim", "azeitona", "biscoito", "brócolis", "croquete", "feijoada", "gelatina", "gengibre", "goiabada", "limonada", "macarrão", "maionese", "mandioca", "maracujá", "melancia", "merengue", "mostarda", "panetone", "panqueca", "parmesão", "pirulito", "pistache", "presunto", "rádio", "raspberry", "salpicão", "sequilho", "talharim", "torresmo", "tortilla", "uva passa", "vitamina", "yakisoba", "brigadeiro", "caipirinha", "cheesecake", "dobradinha", "energético", "gorgonzola", "hambúrguer", "jabuticaba", "manjericão", "mousse de maracujá", "pão de queijo", "petit gâteau", "suco de maçã", "vinho branco", "abacaxi", "doce de leite", "feijão preto", "leite de coco", "marshmallow", "panqueca", "torta de limão",
   ];
-  window.respostasAcerto_animais = [];
+  window.respostasAcerto_verbos = [
+    "correr", "pular", "andar", "dormir", "comer", "beber", "rir", "chorar", "gritar", "sentar", "levantar", "voar", "nadar", "escrever", "ler", "cozinhar", "dirigir", "estudar", "trabalhar", "brincar", "dançar", "cantar", "pensar", "olhar", "escutar", "comprar", "vender", "abrir", "fechar", "limpar", "lavar", "cortar", "desenhar", "pintar", "telefonar", "enviar", "receber", "aprender", "ensinar", "viajar", "nadar", "mergulhar", "abraçar", "beijar", "chutar", "atacar", "defender", "ganhar", "perder", "apagar", "acender", "consertar", "quebrar", "dobrar", "empurrar", "puxar", "subir", "descer", "esperar", "achar", "procurar", "encontrar", "falar", "sussurrar", "telefonar", "caminhar", "pescar", "plantar", "regar", "correr", "saltar", "arremessar", "pegar", "soltar", "vestir", "tirar", "ganhar", "perder", "brigar", "lutar", "treinar", "apertar", "abrir", "fechar", "ligar", "desligar", "gritar", "sorrir", "chorar", "acenar", "aplaudir", "coçar", "rasgar", "costurar", "acordar", "dormir", "respirar", "beber", "comer", "provar", "encher", "esvaziar", "pintar", "desenhar", "fotografar", "filmar", "correr", "cantar", "dançar", "saltar", "atirar", "capturar", "explodir", "salvar", "esconder", "caçar", "jogar", "assistir", "ouvir", "cozinhar", "preparar", "arrumar", "bagunçar", "ganhar", "perder"
+  ];
+  window.respostasAcerto_animais = [
+    "cachorro", "gato", "leão", "tigre", "elefante", "girafa", "macaco", "coelho", "cavalo", "vaca", "porco", "ovelha", "galinha", "pato", "ganso", "cabra", "lobo", "raposa", "urso", "pantera", "onça", "jacaré", "crocodilo", "tartaruga", "jabuti", "cobra", "cobra-cega", "camaleão", "iguana", "lagarto", "sapo", "rã", "peixe", "tubarão", "golfinho", "baleia", "polvo", "lula", "caranguejo", "lagosta", "avestruz", "pavão", "pardal", "coruja", "águia", "falcão", "papagaio", "periquito", "tucano", "pinguim", "urso-pardo", "canguru", "koala", "ornitorrinco", "tamanduá", "preguiça", "hiena", "crocodilo-do-nilo", "cavalo-marinho", "estrelado-do-mar", "abelha", "formiga", "aranha", "borboleta", "vaca-leiteira", "bode", "porquinho-da-índia", "hamster", "chinchila", "raposa-do-ártico", "lêmure", "orangotango", "gorila", "chimpanzé", "baleia-azul", "baleia-jubarte", "golfinho-rosa", "tubarão-branco", "tubarão-martelo", "jacaré-açu", "elefante-africano", "elefante-asiático", "cobra-real", "cobra-cega", "cágado", "jabuti-tortoise", "galinha-d'angola", "pato-real", "cisne", "ganso-do-canadá", "tucano-toco", "avestruz-africano", "papagaio-do-congo", "periquito-australiano", "coruja-das-torres", "águia-careca", "falcão-peregrino", "canguru-vermelho", "koala-australiano", "ornitorrinco-australiano", "tamanduá-bandeira", "preguiça-de-três-dedos", "hiena-malhada", "lêmure-de-cauda-anelada", "raposa-vermelha", "gato-selvagem", "cachorro-do-mato", "cervo", "alce", "bisonte", "urso-pardo-europeu", "urso-negro", "lobo-guará", "guepardo", "leopardo", "pantera-negra", "elefante-anão", "tigre-de-bengala", "tigre-siberiano", "cavalo-marinho", "carpa", "tilápia", "piranha", "polvo-gigante", "lula-gigante", "peixe-palhaço", "peixe-dourado", "salmão", "bacalhau", "camarão", "lagosta", "caranguejo-azul", "medusa", "estrelado-do-mar", "bicho-preguiça", "porco-espinho", "ouriço-do-mar", "tatu", "raposa-do-deserto"
+  ];
 
   window.pararTentativaAcerto = false;
   window.desenhoCancelado = false;
@@ -148,8 +153,6 @@
         const filteredMessages = computed(() => {
           return messages.value
             .filter((m) => {
-              // m: {name, text, timestamp, isSelf, isSystem, color}
-              // console.log("message", m);
               if (searchMessage.value) {
                 return (
                   m.text
@@ -164,7 +167,6 @@
                 return false;
               }
               return true;
-              // if(!(m.isSystem && !showSystemMessages.value)) return m;
             })
             .map((m) => {
               if (!authorColors[m.name]) {
@@ -207,8 +209,6 @@
 
         // observa index alterado com o tab, para scrollar div de sugestoes.
         watch(suggestionIndex, (newValue, oldValue) => {
-          console.log("SuggestionIndex mudou:", { newValue, oldValue });
-
           if (oldValue % 10 == 0 && oldValue >= 10) {
             // scroll suggestion box.
             const suggestionContainer = document.querySelector(
@@ -286,8 +286,16 @@
             case "verbos":
               suggestions.value = window.respostasAcerto_verbos || [];
               break;
+            case "animais":
+              suggestions.value = window.respostasAcerto_animais || [];
+              break;
             case "geral":
-              suggestions.value = window.respostasAcerto_geral || [];
+              suggestions.value = [
+                ...(window.respostasAcerto_objetos || []),
+                ...(window.respostasAcerto_alimentos || []),
+                ...(window.respostasAcerto_verbos || []),
+                ...(window.respostasAcerto_animais || []),
+              ];
               break;
           }
         };
@@ -315,9 +323,9 @@
           // messages.value = [];
           // excluir mensagens do storage
           localStorage.removeItem(storedKey);
-          console.log("%climpando...", "color: gray;");
+          console.log("[Gartic Bot] %climpando chat...", "color: gray;");
           setTimeout(() => {
-            console.log("%cchat limpo...", "color: green;");
+            console.log("[Gartic Bot] %cchat limpo...", "color: green;");
           }, 800)
         };
         const getNickname = () => window.getAtualUsuarioNickname();
@@ -583,17 +591,6 @@
                     window.desenhoCancelado = false;
                     window.tentativasDesenhoAtual = [];
                     partidasCount.value++;
-
-                    // if(skipDraw.value){
-                    //   console.log("[Gartic Bot] Configurado para pular desenho...")
-                    //   const skipButton = document.querySelector("#alerta #pular");
-                    //   if(skipButton){
-                    //     skipButton.click();
-                    //   }
-                    // }
-
-                    // window.desenhoCancelado = true;
-                    // window.tentativasDesenhoAtual = [];
                   }
 
                   // ao acertar
@@ -624,7 +621,6 @@
             window._garticPopupObserver = new MutationObserver((muts) => {
               muts.forEach((m) => {
                 m.addedNodes.forEach(({ textContent }) => {
-                  // const h3Text = node.querySelector("h3")?.textContent.trim().toLowerCase();
                   let text = textContent.toLowerCase();
 
                   if (text?.includes("sair")) {
@@ -669,7 +665,6 @@
             window._garticDesenhoObserver = new MutationObserver((muts) => {
               muts.forEach((m) => {
                 if (m.type === "characterData" || m.type === "childList") {
-                  // console.log("[Gartic Bot] texto1 mudou para:", texto1.textContent.trim());
                   if (texto1.textContent.trim().includes("Sua vez")) {
                     console.log("[Gartic Bpt] 🎨 É sua vez de desenhar!");
                     // exemplo: clicar automaticamente no botão desenhar
@@ -1110,22 +1105,32 @@
 
   window.obterRespostaPorDica = (tipo, dica) => {
     if (!tipo && !dica) return false;
-
+    
     let resposta;
     switch (tipo) {
       case "objetos":
         resposta = filtrarPorDica(dica, window.respostasAcerto_objetos);
         break;
-
+      
       case "animais":
         resposta = filtrarPorDica(dica, window.respostasAcerto_animais);
         break;
-
+      
+      case "verbos":
+        resposta = filtrarPorDica(dica, window.respostasAcerto_verbos);
+        break;
+      
       case "alimentos":
         resposta = filtrarPorDica(dica, window.respostasAcerto_alimentos);
         break;
-
+      
       case "geral":
+        resposta = filtrarPorDica(dica, [
+          ...(window.respostasAcerto_objetos || []),
+          ...(window.respostasAcerto_alimentos || []),
+          ...(window.respostasAcerto_verbos || []),
+          ...(window.respostasAcerto_animais || []),
+        ])
         break;
     }
     return resposta;
@@ -1156,9 +1161,20 @@
           ];
         break;
       case "verbos":
+        resposta =
+          window.respostasAcerto_verbos[
+            Math.floor(Math.random() * window.respostasAcerto_verbos.length)
+          ];
         break;
 
       case "geral":
+        const todos = [
+          ...(window.respostasAcerto_objetos || []),
+          ...(window.respostasAcerto_animais || []),
+          ...(window.respostasAcerto_alimentos || []),
+          ...(window.respostasAcerto_verbos || []),
+        ];
+        resposta = todos[Math.floor(Math.random() * todos.length)];
         break;
     }
     return resposta;
@@ -1190,14 +1206,14 @@
 
     const dica = obterDicaFormatada();
     const tipo = getTipoSala();
-    console.log("voce esta jogando em: ", { tipo, dica });
+    console.log("[Gartic Bot] voce esta jogando em: ", { tipo, dica });
     let resposta;
     if (!dica) {
       resposta = obterRespostaRandomica(tipo);
     } else {
       resposta = obterRespostaPorDica(tipo, dica);
     }
-    console.log("Resposta", resposta);
+    console.log("[Gartic Bot] Resposta", resposta);
     if (resposta && typeof resposta == "string") {
       window.darResposta(resposta);
     } else if (resposta && typeof resposta == "object" && resposta.length) {
@@ -1223,7 +1239,7 @@
             await sleep(1000);
           } else {
             console.log(
-              `A resposta: ${resultado}, ja foi dada no desenho atual`
+              `[Gartic Bot] A resposta: ${resultado}, ja foi dada no desenho atual`
             );
           }
           // darResposta(resultado);
@@ -1265,7 +1281,7 @@
     // pegar apenas as respostas que nao contenham nos objetos do arquivo
     const tipo = getTipoSala();
 
-    console.log("respostas", window.respostasReveladas);
+    console.log("[Gartic Bot] respostas", window.respostasReveladas);
 
     // return window.respostasReveladas;
 
