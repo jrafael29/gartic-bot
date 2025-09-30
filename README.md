@@ -4,6 +4,15 @@ Aplicação em **JavaScript** (IIFE) que adiciona uma janela interativa ao [Gart
 
 ---
 
+## 🚀 Como usar
+
+1. Abra o [Gartic](https://gartic.io) em seu navegador.  
+2. Abra o **console do desenvolvedor** (geralmente `F12` → aba *Console*).  
+3. Cole o código do arquivo `script.js` e pressione **Enter**.  
+4. A janela de funcionalidades será exibida automaticamente.  
+
+---
+
 ## 📊 Painel Principal
 
 O painel fixo na tela exibe informações em tempo real sobre sua sessão no Gartic:
@@ -37,7 +46,6 @@ O painel fixo na tela exibe informações em tempo real sobre sua sessão no Gar
 
 ---
 
-## 🖲️ Botões de Funcionalidades
 ## 🖲️ Botões de Funcionalidades
 
 ### AntiIdle
